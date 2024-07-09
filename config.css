@@ -1,0 +1,22 @@
+body {
+    max-width: 375px;
+    margin: auto;
+    height: 80rem;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border: 1px solid black;
+
+    row-gap: 5px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: monospace;
+}
